@@ -1,6 +1,7 @@
 package cn.ffb.http.download;
 
 import java.io.File;
+
 /**
  * Created by lingfei on 2017/5/26.
  */

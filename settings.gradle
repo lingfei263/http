@@ -1,1 +1,1 @@
-include ':app', ':httplib', ':downloadlib', ':uploadlib'
+include ':app', ':httplib'

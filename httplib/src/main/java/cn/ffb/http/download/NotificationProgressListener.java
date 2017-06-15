@@ -11,7 +11,7 @@ import java.io.File;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import cn.ffb.download.R;
+import cn.ffb.http.R;
 
 
 /**

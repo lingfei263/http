@@ -2,7 +2,8 @@ package cn.ffb.http.upload;
 
 import android.content.Context;
 
-import cn.ffb.utils.ToastUtils;
+import cn.ffb.http.ToastUtils;
+
 
 /**
  * Created by lingfei on 2017/5/23.
