@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.Map;
 
 import cn.ffb.dialog.core.DialogBuilder;
-import cn.ffb.http.ToastUtils;
 import cn.ffb.http.core.ICall;
+import cn.ffb.utils.ToastUtils;
 import okhttp3.ResponseBody;
 
 /**
@@ -211,7 +211,7 @@ public final class FileDownloader {
             this.downloaderListeners = new ArrayList<>();
             this.downloadProgressListeners = new ArrayList<>();
             this.downloadResponseListeners = new ArrayList<>();
-            this.dir(cn.ffb.http.FileUtils.getDownloadPath(getContext()));
+            this.dir(cn.ffb.utils.FileUtils.getDownloadPath(getContext()));
         }
 
         public Builder build() {

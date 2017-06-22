@@ -2,7 +2,7 @@ package cn.ffb.http.upload;
 
 import android.content.Context;
 
-import cn.ffb.http.ToastUtils;
+import cn.ffb.utils.ToastUtils;
 
 
 /**
